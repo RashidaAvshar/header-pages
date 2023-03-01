@@ -4,28 +4,28 @@ import { DataGrid } from '@mui/x-data-grid';
 import axios from "axios";
 
 const columns = [
-    { field: 'id', headerName: 'ID', width: 90 },
+    { field: 'id', headerName: 'ID', width: 70 },
     {
       field: 'title',
       headerName: 'Product title',
-      width: 150,
+      width: 320,
     },
     {
       field: 'description',
       headerName: 'Product description',
-      width: 150,
+      width: 480,
     },
     {
       field: 'price',
       headerName: 'Price',
       type: 'number',
-      width: 110,
+      width: 100,
     },
     {
       field: 'category',
       headerName: 'Product category',
       type: 'number',
-      width: 110,
+      width: 170,
     },    
   ];
 

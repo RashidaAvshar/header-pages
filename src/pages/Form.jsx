@@ -16,7 +16,6 @@ const Form = () => {
     setUserData({...userData, [e.target.name]: e.target.value})
   }
 
-
   const onHandleClick = ()=>{
     axios.post(`${BASE_URL}/create-data`, userData).then((res)=>{
       if(res.status === 201){
