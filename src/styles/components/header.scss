@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+    height: 80px;
+    background-color: darkmagenta;
+    .header{
+        width: 100%;
+        height: 80px;
+        background-color: darkmagenta;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        li{
+            a{
+                color: white;
+            margin-left: 60px;
+            font-size: 20px;
+            transition: 0.5s;
+            cursor: pointer;
+            &:hover {
+                font-size: 25px;
+                font-weight: 900;
+                color: darkgray;
+            }
+            }            
+        }
+    }
+}
